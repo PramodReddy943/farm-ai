@@ -7,7 +7,7 @@ import Link from 'next/link'
 import {
   Leaf, ShoppingCart, Cloud, TrendingUp, Stethoscope, DollarSign, Users,
   BookOpen, Zap, Sprout, Store, Apple, MessageCircle, ArrowRight,
-  Smartphone, Globe, Lightning, Users2
+  Smartphone, Globe, Users2
 } from 'lucide-react'
 
 export default function LandingPage() {
