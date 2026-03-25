@@ -27,11 +27,11 @@ export default function MyFarmPage() {
       </header>
 
       {/* Tab Navigation - Enhanced */}
-      <div className="sticky top-20 z-9 bg-white border-b border-gray-200 shadow-sm">
+      <div className="sticky top-[80px] z-10 bg-white border-b border-gray-200 shadow-sm">
         <div className="mx-auto max-w-4xl px-4 flex gap-2">
           <button
             onClick={() => setActiveTab('profile')}
-            className={`py-4 px-6 border-b-3 font-semibold transition-all flex items-center gap-2 ${
+            className={`py-4 px-6 border-b-2 font-semibold transition-all flex items-center gap-2 ${
               activeTab === 'profile'
                 ? 'border-emerald-500 text-emerald-600 bg-emerald-50/50'
                 : 'border-transparent text-gray-600 hover:text-gray-900 hover:bg-gray-50'
@@ -42,7 +42,7 @@ export default function MyFarmPage() {
           </button>
           <button
             onClick={() => setActiveTab('history')}
-            className={`py-4 px-6 border-b-3 font-semibold transition-all flex items-center gap-2 ${
+            className={`py-4 px-6 border-b-2 font-semibold transition-all flex items-center gap-2 ${
               activeTab === 'history'
                 ? 'border-blue-500 text-blue-600 bg-blue-50/50'
                 : 'border-transparent text-gray-600 hover:text-gray-900 hover:bg-gray-50'
