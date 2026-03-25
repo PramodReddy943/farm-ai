@@ -1,51 +1,16 @@
-# FarmAI - Mobile-First Web App
+# FarmAI - AI-Powered Agricultural Marketplace
 
-## Project Structure
+> 🌾 **Smart farming platform connecting farmers, buyers, and suppliers with intelligent decision-support tools**
 
-```
-farm-ai-web/
-├── app/                      # Next.js App Router
-│   ├── api/                  # API routes
-│   ├── disease/scanner/      # Disease scan page
-│   ├── weather/              # Weather forecast page
-│   ├── chatbot/              # AI chatbot page
-│   ├── myFarm/               # Farm profile page
-│   ├── layout.tsx            # Root layout
-│   ├── page.tsx              # Home/Dashboard
-│   └── providers.tsx         # Context providers
-├── components/               # React components
-│   ├── ui/                   # Base UI components
-│   ├── Navigation.tsx        # Bottom navigation
-│   ├── DiseaseScanner.tsx    # Image upload & camera
-│   ├── ChatBot.tsx           # AI chatbot interface
-│   ├── WeatherWidget.tsx     # Weather display
-│   └── ...                   # Other components
-├── lib/                      # Utilities & services
-│   ├── api-client.ts         # Axios instance for API calls
-│   ├── gemini.ts             # Google Gemini AI integration
-│   ├── store.ts              # Zustand state management
-│   ├── context/              # React Context providers
-│   └── utils.ts              # Helper functions
-├── styles/                   # CSS
-│   └── globals.css           # Global styles
-├── public/                   # Static assets
-├── package.json
-├── tsconfig.json
-├── next.config.js
-├── tailwind.config.ts
-└── .env.example
-```
+## 🎯 Overview
 
-## Features
+**FarmAI** is a comprehensive 28-feature agricultural marketplace MVP built with Next.js 14, TypeScript, and AI/LLM integration. Currently **9 core features are complete** and production-ready.
 
-### Core Modules
-1. **Disease Scanner** - Upload images or describe symptoms for AI-powered disease detection
-2. **Medicine Recommendations** - Get personalized treatment suggestions
-3. **Weather Integration** - 7-day forecast with crop-specific alerts
-4. **AI Chatbot** - Ask farming questions and get expert advice
-5. **Farm Profile** - Manage farm details and view scan history
+**Status:** ✅ **Launch Ready**
 
-## Setup & Installation
+---
+
+## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js 18+ installed
